@@ -1,4 +1,4 @@
-// Variables => let, var, const
+// Variable / keywords => let, var, const
 
 //Program 1 
 let a = 10;  //keyword variablename = value
@@ -19,7 +19,7 @@ c = 2;
 console.log(c);
 
 //Program 3
-//Arithematic Problem => + , - , * , / , %
+//1. Arithematic Problem => + , - , * , / , %
 let x = 5;
 let y = 2;
 console.log(x+y);
@@ -37,7 +37,7 @@ console.log(d/f);
 console.log(d%f); //DRY => do not repeat yourself
 
 //Program 4
-//Functions => function fun_name (parameter){ //code here}
+//Functions => keyword  fun_name (parameter){ //code here}
 function Calculator(w,e){
     console.log(w+e);
     console.log(w-e);
@@ -53,16 +53,18 @@ Calculator(4,2);
 function addA(){
     console.log(2+3);
 }
-addA()
+addA() //output same , output cant be reusable
 
 //2. Function with parameter and without return type
 function addB(j,k){
     console.log(j+k);
 }
-addB(90,10);
+addB(90,10); //10 rs give  => used  => 10+10 10-5
+            //10 rs show => cant not used
 
 //3. Function with parameter and with return type 
 // To reuse we use with and with eg. 100, 100+2 = 102
+//output change , output reused
 function addC(y,u){
     return y + u;
 }

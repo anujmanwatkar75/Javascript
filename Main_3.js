@@ -1,16 +1,27 @@
-//Logical Operator
+//3. Logical Operator ==> boolean ==> true/false
+//a. AND ==> &&
+//b. OR ==> ||
+//c.  NOT ==> !
+
 /* 
-1. && - AND ====>    true && true => true
+1. && - AND ====> (mulitiplication)
+
+                     true && true => true
                      false && true => false
                      true && false => false
                      false && false => false
 
-2. || - OR ====>    true || true => true
+2. || - OR ====> (addition)
+
+                    true || true => true
                     false || true => true
                     true || false => true
                     false || false => false
                     
-3. ! - NOT ====>    true => false
+3. ! - NOT ====> (//true ==> !true ==> false
+                  //false ==> !false ==> true)
+                  
+                    true => false
                     false => true
 */
 

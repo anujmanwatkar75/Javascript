@@ -31,13 +31,33 @@ console.log(c);
 console.log(typeof c); //"1", "a", "a1", "ASQ122", "a1@#$", " ", ' ', ` `
 
 
-/* 
-# Comparison Operator
-1. < , > , <= , >=
-2. != , == => value
-3. !== , ===  => value and type
-4. entity < entity => boolean (true or false)
-*/
+/***/ 
+
+//operator
+//1. arithmatic ==> +-*/%
+//2.comparison operator => <,>,<=,>=,!=,==,===,!==
+//3. logical operator ==> boolean ==> true/false
+//a. AND ==> &&
+//b. OR ==> ||
+//c.  NOT ==> !
+
+// 2. Comparison Operator
+// a. < , > , <= , >=
+// b. != , == => value
+// c. !== , ===  => value and type
+// d. entity < entity => boolean (true or false)
+
+//boolean => true/false
+//< less than
+//> greaterthan
+//<= less than equal to
+//>= greater than equal to
+//== double equal to
+//=== triple equal to
+//!= not equal to
+//!== not double equal to
+
+/***/
 
 //Program 1
 console.log(10 == 10);
