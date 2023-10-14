@@ -1,10 +1,16 @@
 //Conditional Statement
+//// single input ==> multiple outcome
+//if
+//if - else
+//if - else if - else
+//switch case
 
 /*
 numT > 0 && numT <= 5  -----> 5% discount
 numT > 5 && numT <=10 ------> 10% discount
 numT > 10 ------------------> 20% discount
 
+syntax ==> if
 if(condition){
     //statement
 }
@@ -13,23 +19,31 @@ if(condition){
 //program 1 ====> (if) - Number Of Ticket
 let numT = 11;
 
-if(numT > 0 && numT <=5){
+if(numT > 0 && numT <= 5){
     console.log("5% discount");
 }
-if(numT > 5 && numT <=10){
+if(numT > 5 && numT <= 10){
     console.log("10% discount");
 }
 if(numT > 10){
     console.log("20% discount");
 }
 
-//Program 2 ====> (if...else)
+//Program 2 ====> (if - else)
+if(10>2){
+    console.log('hello');
+}
+else{
+    console.log('bye');
+}
+
+//Program 3 ====> (if - else if - else)
 let numT2 = -17;
 
-if(numT2 > 0 && numT2 <=5){
+if(numT2 > 0 && numT2 <= 5){
     console.log("5% discount");
 }
-else if(numT2 > 5 && numT2 <=10){
+else if(numT2 > 5 && numT2 <= 10){
     console.log("10% discount");
 }
 else if(numT2 > 10){
@@ -39,7 +53,7 @@ else{
     console.log("incorrect input");
 }
 
-//Program 3 ====> (if) - Marks
+//Program 4 ====> (if) - Marks
 let marks = 90;
 
 if (marks >= 90){
@@ -52,13 +66,13 @@ if (marks >= 65){
     console.log("Grade C");
 }
 
-//Program 4 ====> (if...else)
+//Program 5 ====> (if - else if - else)
 let MarksObtained = 76;
 
 if(MarksObtained >= 90){
     console.log("Grade A");
 }
-else if(MarksObtained >=75){
+else if(MarksObtained >= 75){
     console.log("Grade B");
 }
 else if(MarksObtained >= 65){
@@ -68,7 +82,7 @@ else{
     console.log("Please try again");
 }
 
-//Program 5 ====> (if..else) - Greater Number
+//Program 6 ====> (if - else) - Greater Number
 let a = 15;
 let b = 1022;
 
@@ -79,7 +93,7 @@ else{
     console.log("b is greater");
 }
 
-//Program 6 ====> (if...else) -  Greatest Number
+//Program 7 ====> (if - else if - else) -  Greatest Number
 
 let x1 = 1000000;
 let x2 = 13222;
@@ -95,7 +109,7 @@ else{
     console.log("x3 is greater");
 }
 
-//Program 7 ====> (if...else)
+//Program 7 ====> (if - else)
 let q = 1000000;
 let w = 500000000;
 

@@ -1,7 +1,7 @@
 //3. Logical Operator ==> boolean ==> true/false
 //a. AND ==> &&
 //b. OR ==> ||
-//c.  NOT ==> !
+//c. NOT ==> !
 
 /* 
 1. && - AND ====> (mulitiplication)

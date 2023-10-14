@@ -41,7 +41,7 @@ console.log(typeof c); //"1", "a", "a1", "ASQ122", "a1@#$", " ", ' ', ` `
 //b. OR ==> ||
 //c.  NOT ==> !
 
-// 2. Comparison Operator
+// 2. Comparison Operator (true/false)
 // a. < , > , <= , >=
 // b. != , == => value
 // c. !== , ===  => value and type

@@ -37,7 +37,12 @@ console.log(d/f);
 console.log(d%f); //DRY => do not repeat yourself
 
 //Program 4
-//Functions => keyword  fun_name (parameter){ //code here}
+//Functions syntax => 
+/* keyword fun_name (parameter)
+    { 
+        //code here
+    }
+*/
 function Calculator(w,e){
     console.log(w+e);
     console.log(w-e);
@@ -71,4 +76,5 @@ function addC(y,u){
 let a1 = addC(5,15);
 console.log(a1);
 console.log(a1+a1);
+console.log(a1*a1);
 
